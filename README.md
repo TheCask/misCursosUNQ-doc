@@ -46,7 +46,12 @@ El proceso general contempla la creación de lxs usuarixs del sistema, en este c
 El ingreso al sistema debe contemplar distintos roles con distintos permisos de acceso, cada docente solo podrá ver/editar información sobre los cursos a su cargo, mientras que coordinadores podrán análogamente ver información de todos los cursos de una misma asignatura, mientras que la coordinación general tendrá acceso a todas las cursadas.
 Se contempla la posibilidad de logueo al sistema mediante autenticación con cuentas de google.
 ### Modelo de dominio
-![UML]()
+![UML](https://github.com/TheCask/misCursosUNQ-doc/blob/master/misCursosUNQ%20Domain.png)
+
+### Objetos Pricipales
+![Objects](https://github.com/TheCask/misCursosUNQ-doc/blob/master/Pricipal%20Objects.png)
+
+
 El objeto central del modelo es la cursada, que corresponde a el dictado de una asignatura en un determinado cuatrimestre, estará compuesta por estudiantes que la cursan y docente/s que la dicta/n. Además se contará con la figura de coordinador de asignatura, que podrá gestionar todas las cursadas de una misma asignatura y coordinador/a de ciclo que se con alcance análogo para todo el CI-CYT. 
 El coordinador de ciclo estará a cargo de gestionar la creación de asignaturas y el agregado de lxs coordinadores/as, as su vez estxs gestionarán la creación de cursos y el agregado de docentes. Lxs docentes gestionarán la alta de estudiantes en sus cursos.
 ### Casos de uso
