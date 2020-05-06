@@ -20,12 +20,12 @@
 ## Milestones Github
 | Fecha | Backend | Frontend |
 | ------ | ------ | ------ |
-| 25/04/2020 | [Prueba de Concepto] | [Prueba de Concepto]
-| 09/05/2020 | [Entrega 1] | [Entrega 1]
-| 23/05/2020 | [Entrega 2] | [Entrega 2]
-| 13/06/2020 | [Entrega 3] | [Entrega 3]
-| 04/07/2020 | [Entrega 4] | [Entrega 4]
-| TBD | [Presentación final] | [Presentación final]
+| 25/04/2020 | [Prueba de Concepto](https://github.com/TheCask/misCursosUNQ-back/milestone/2) | [Prueba de Concepto](https://github.com/TheCask/misCursosUNQ-front/milestone/1)
+| 09/05/2020 | [Entrega 1](https://github.com/TheCask/misCursosUNQ-back/milestone/3) | [Entrega 1](https://github.com/TheCask/misCursosUNQ-front/milestone/2)
+| 23/05/2020 | [Entrega 2](https://github.com/TheCask/misCursosUNQ-back/milestone/4) | [Entrega 2](https://github.com/TheCask/misCursosUNQ-front/milestone/3)
+| 13/06/2020 | [Entrega 3](https://github.com/TheCask/misCursosUNQ-back/milestone/5) | [Entrega 3](https://github.com/TheCask/misCursosUNQ-front/milestone/4)
+| 04/07/2020 | [Entrega 4](https://github.com/TheCask/misCursosUNQ-back/milestone/6) | [Entrega 4](https://github.com/TheCask/misCursosUNQ-front/milestone/5)
+| TBD | [Presentación final](https://github.com/TheCask/misCursosUNQ-back/milestone/7) | [Presentación final](https://github.com/TheCask/misCursosUNQ-front/milestone/6)
 ---
 ## Sobre el Producto
 ### Usuarios
