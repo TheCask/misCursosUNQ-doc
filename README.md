@@ -4,18 +4,21 @@
 ---
 ### Consult [Wiki](https://github.com/TheCask/misCursosUNQ-doc/wiki)
 ---
-- **Grupo**: 14
-- **Integrantes**: Elías Filipponi y Eugenio Cálcena
-- **Objetivo General**: Se plantea construir un sistema de gestión de cursos y evaluaciones para el ciclo introductorio de ciencia y tecnología (CI-CYT) de la Universidad Nacional de Quilmes (UNQ).
-- **Licencia**: GNU GPL 3
-- **Proceso**: Iterativo (MVP mínimo y suma de funcionalidades)
-- **Tecnologías**: MySQL / Postgres - Hibernate - Java - Spring - ReactJS
-- **Arquitectura**: Tipo web centralizada.
-- **Repositorios** (Github):
-  - [Front](https://github.com/TheCask/misCursosUNQ-front.git)
-  - [Back](https://github.com/TheCask/misCursosUNQ-back.git)
-  - [Documents](https://github.com/TheCask/misCursosUNQ-doc.git)
+- **Group**: 14
+- **Members**: Elías Filipponi y Eugenio Cálcena
+- **General Goal**: Se plantea construir un sistema de gestión de cursos y evaluaciones para el ciclo introductorio de ciencia y tecnología (CI-CYT) de la Universidad Nacional de Quilmes (UNQ).
+- **License**: GNU GPL 3
+- **Development process**: Iterativo (MVP mínimo y suma de funcionalidades)
+- **Repositories** (Github):
+  - [Frontend](https://github.com/TheCask/misCursosUNQ-front.git)
+  - [Backend](https://github.com/TheCask/misCursosUNQ-back.git)
+  - [Documentation](https://github.com/TheCask/misCursosUNQ-doc.git)
 - [Backlog (Trello)](https://trello.com/invite/b/tBtNOQyX/079461fa54dd03f45fec964b3543d726/miscursosunq)
+---
+## Architecture
+- **Type**: Web client - server.
+- **Technologies**: MySQL - Hibernate - Java - Spring - ReactJS
+![Architecture](https://github.com/TheCask/misCursosUNQ-doc/blob/master/Arquitectura.png)
 ---
 ## Milestones Github
 | Fecha | Backend | Frontend |
