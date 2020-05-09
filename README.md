@@ -51,14 +51,17 @@ Se contempla la posibilidad de logueo al sistema mediante autenticación con cue
 ### Modelo de dominio
 ![UML](https://github.com/TheCask/misCursosUNQ-doc/blob/master/misCursosUNQ%20Domain.png)
 
+
+
 ### Objetos Pricipales
 ![Objects](https://github.com/TheCask/misCursosUNQ-doc/blob/master/Pricipal%20Objects.png)
-
-
 El objeto central del modelo es la cursada, que corresponde a el dictado de una asignatura en un determinado cuatrimestre, estará compuesta por estudiantes que la cursan y docente/s que la dicta/n. Además se contará con la figura de coordinador de asignatura, que podrá gestionar todas las cursadas de una misma asignatura y coordinador/a de ciclo que se con alcance análogo para todo el CI-CYT. 
 El coordinador de ciclo estará a cargo de gestionar la creación de asignaturas y el agregado de lxs coordinadores/as, as su vez estxs gestionarán la creación de cursos y el agregado de docentes. Lxs docentes gestionarán la alta de estudiantes en sus cursos.
-### Casos de uso
 
+
+
+### Casos de uso
+![Use Cases](https://github.com/TheCask/misCursosUNQ-doc/blob/master/Diagrama%20de%20caso%20de%20uso.png)
 Lineamientos generales de los casos de uso:
 
 - Un administrador crea materia y coordinadores, y los asocian según corresponda. Reúne todos los permisos que un coordinador o un docente para todas las asignaturas.
