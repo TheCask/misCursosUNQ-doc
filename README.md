@@ -19,6 +19,7 @@
 - **Type**: Web client - server.
 - **Technologies**: MySQL - Hibernate - Java - Spring - ReactJS
 ![Architecture](https://github.com/TheCask/misCursosUNQ-doc/blob/master/Arquitectura.png)
+Se plantea una arquitectura de tipo cliente servidor. Del lado del Frontend se utilizará REACT dividiendo el proyecto en componentes que manejan lógica y renderizan una parte de pequeña de cada pantalla. Estos se conectaran entre si y a su vez delegaran la comunicación con el backend a servicios API para envío y recepción de información. Del lado del Backend se utilizarán controllers que manejan request y reponses REST, delegando en services especiales la lógica previa y posterior a la comunicación con los repos para la persistencia de la información. Los repos son manejados por Hibernate mediante configuraciones en el dominio mediante anotations, evitando el acceso directo a la base de datos mysql. El dominio escrito en JAVA contempla la lógica de negocio y encapsulamiento apropiado de la información.
 ---
 ## Milestones Github
 | Fecha | Backend | Frontend |
