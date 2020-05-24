@@ -22,14 +22,14 @@
 Se plantea una arquitectura de tipo cliente servidor. Del lado del Frontend se utilizará REACT dividiendo el proyecto en componentes que manejan lógica y renderizan una parte de pequeña de cada pantalla. Estos se conectaran entre si y a su vez delegaran la comunicación con el backend a servicios API para envío y recepción de información. Del lado del Backend se utilizarán controllers que manejan request y reponses REST, delegando en services especiales la lógica previa y posterior a la comunicación con los repos para la persistencia de la información. Los repos son manejados por Hibernate mediante configuraciones en el dominio mediante anotations, evitando el acceso directo a la base de datos mysql. El dominio escrito en JAVA contempla la lógica de negocio y encapsulamiento apropiado de la información.
 ---
 ## Milestones Github
-| Fecha | Backend | Frontend |
-| ------ | ------ | ------ |
-| 25/04/2020 | [Prueba de Concepto](https://github.com/TheCask/misCursosUNQ-back/milestone/2) | [Prueba de Concepto](https://github.com/TheCask/misCursosUNQ-front/milestone/1)
-| 09/05/2020 | [Entrega 1](https://github.com/TheCask/misCursosUNQ-back/milestone/3) | [Entrega 1](https://github.com/TheCask/misCursosUNQ-front/milestone/2)
-| 23/05/2020 | [Entrega 2](https://github.com/TheCask/misCursosUNQ-back/milestone/4) | [Entrega 2](https://github.com/TheCask/misCursosUNQ-front/milestone/3)
-| 13/06/2020 | [Entrega 3](https://github.com/TheCask/misCursosUNQ-back/milestone/5) | [Entrega 3](https://github.com/TheCask/misCursosUNQ-front/milestone/4)
-| 04/07/2020 | [Entrega 4](https://github.com/TheCask/misCursosUNQ-back/milestone/6) | [Entrega 4](https://github.com/TheCask/misCursosUNQ-front/milestone/5)
-| TBD | [Presentación final](https://github.com/TheCask/misCursosUNQ-back/milestone/7) | [Presentación final](https://github.com/TheCask/misCursosUNQ-front/milestone/6)
+| Fecha | Backend | Frontend | Documents |
+| ------ | ------ | ------ | ------ |
+| 25/04/2020 | [Prueba de Concepto](https://github.com/TheCask/misCursosUNQ-back/milestone/2) | [Prueba de Concepto](https://github.com/TheCask/misCursosUNQ-front/milestone/1) | [Prueba de Concepto](https://github.com/TheCask/misCursosUNQ-doc/milestone/5) |
+| 09/05/2020 | [Entrega 1](https://github.com/TheCask/misCursosUNQ-back/milestone/3) | [Entrega 1](https://github.com/TheCask/misCursosUNQ-front/milestone/2) |[Entrega 1](https://github.com/TheCask/misCursosUNQ-doc/milestone/1)|
+| 23/05/2020 | [Entrega 2](https://github.com/TheCask/misCursosUNQ-back/milestone/4) | [Entrega 2](https://github.com/TheCask/misCursosUNQ-front/milestone/3) | [Entrega 2](https://github.com/TheCask/misCursosUNQ-doc/milestone/2) |
+| 13/06/2020 | [Entrega 3](https://github.com/TheCask/misCursosUNQ-back/milestone/5) | [Entrega 3](https://github.com/TheCask/misCursosUNQ-front/milestone/4) |[Entrega 3](https://github.com/TheCask/misCursosUNQ-doc/milestone/3)|
+| 04/07/2020 | [Entrega 4](https://github.com/TheCask/misCursosUNQ-back/milestone/6) | [Entrega 4](https://github.com/TheCask/misCursosUNQ-front/milestone/5) | [Entrega 4](https://github.com/TheCask/misCursosUNQ-doc/milestone/4)|
+| TBD | [Presentación final](https://github.com/TheCask/misCursosUNQ-back/milestone/7) | [Presentación final](https://github.com/TheCask/misCursosUNQ-front/milestone/6) | [Presentación final](https://github.com/TheCask/misCursosUNQ-doc/milestone/6) |
 ---
 ## Sobre el Producto
 ### Usuarios
