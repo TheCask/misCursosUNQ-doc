@@ -2,18 +2,23 @@
 # misCursosUNQ Documentation repository
 ---
 ---
-### Consult [Wiki](https://github.com/TheCask/misCursosUNQ-doc/wiki)
+[**Repositories**](https://github.com/TheCask)
+| Link | Travis | Coverage | Quality | Licence |
+| ------ | ------ | ------ | ------ | ------ |
+| [Backend](https://github.com/TheCask/misCursosUNQ-back.git) | [![Build Status](https://travis-ci.org/TheCask/misCursosUNQ-back.svg?branch=master)](https://travis-ci.org/TheCask/misCursosUNQ-back) | | | [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) |
+| [Frontend](https://github.com/TheCask/misCursosUNQ-front.git) | | | | [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) |
+| [Docs](https://github.com/TheCask/misCursosUNQ-doc.git) | | | | [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) |
+---
+[**Backlog**](https://trello.com/invite/b/tBtNOQyX/079461fa54dd03f45fec964b3543d726/miscursosunq)
+
+[**Wiki**](https://github.com/TheCask/misCursosUNQ-doc/wiki)
+
 ---
 - **Group**: 14
 - **Members**: Elías Filipponi y Eugenio Cálcena
 - **General Goal**: Se plantea construir un sistema de gestión de cursos y evaluaciones para el ciclo introductorio de ciencia y tecnología (CI-CYT) de la Universidad Nacional de Quilmes (UNQ).
 - **License**: GNU GPL 3
 - **Development process**: Iterativo (MVP mínimo y suma de funcionalidades)
-- **Repositories** (Github):
-  - [Frontend](https://github.com/TheCask/misCursosUNQ-front.git)
-  - [Backend](https://github.com/TheCask/misCursosUNQ-back.git)
-  - [Documentation](https://github.com/TheCask/misCursosUNQ-doc.git)
-- [Backlog (Trello)](https://trello.com/invite/b/tBtNOQyX/079461fa54dd03f45fec964b3543d726/miscursosunq)
 ---
 ## Architecture
 - **Type**: Web client - server.
