@@ -72,3 +72,5 @@ Lineamientos generales de los casos de uso:
 ![Use Cases IT2](https://github.com/TheCask/misCursosUNQ-doc/blob/master/Use%20Cases/Diagrama%20de%20caso%20de%20uso_Entrega2.png)
 - Iteracion 3
 ![Use Cases IT3](https://github.com/TheCask/misCursosUNQ-doc/blob/master/Use%20Cases/Diagrama%20de%20caso%20de%20uso_Entrega3.png)
+- Iteracion 4
+![Use Cases IT4](https://github.com/TheCask/misCursosUNQ-doc/blob/master/Use%20Cases/Diagrama%20de%20caso%20de%20uso_Entrega4.png)
