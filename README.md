@@ -66,5 +66,9 @@ Lineamientos generales de los casos de uso:
 - Un administrador crea materia y coordinadores, y los asocian según corresponda. Reúne todos los permisos que un coordinador o un docente para todas las asignaturas.
 - Los coordinadores crean cursadas y docentes, y los asocian según corresponda. Reúne todos los permisos de los docentes a su cargo.
 - Los docentes crean alumnos en las cursadas a su cargo, crean clases y registran asistencia para sus cursadas, y crean instancias evaluatorias y registran las calificaciones de sus alumnos para cada instancia. 
-
-![Use Cases](https://github.com/TheCask/misCursosUNQ-doc/blob/master/Use%20Cases/Diagrama%20de%20caso%20de%20uso_Entrega3.png)
+- Iteracion 1
+![Use Cases IT1](https://github.com/TheCask/misCursosUNQ-doc/blob/master/Use%20Cases/Diagrama%20de%20caso%20de%20uso_Entrega1.png)
+- Iteracion 2
+![Use Cases IT2](https://github.com/TheCask/misCursosUNQ-doc/blob/master/Use%20Cases/Diagrama%20de%20caso%20de%20uso_Entrega2.png)
+- Iteracion 3
+![Use Cases IT3](https://github.com/TheCask/misCursosUNQ-doc/blob/master/Use%20Cases/Diagrama%20de%20caso%20de%20uso_Entrega3.png)
