@@ -1,8 +1,8 @@
 ![Logo](https://github.com/TheCask/misCursosUNQ-doc/blob/master/logoApp.png)
-# misCursosUNQ Documentation repository
+# misCursosUNQ Documentacion
 ---
 ---
-[**Repositories**](https://github.com/TheCask)
+[**Repositorios**](https://github.com/TheCask)
 | Link | Travis | JaCoCo | Codacy | Licence |
 | ------ | ------ | ------ | ------ | ------ |
 | [Backend](https://github.com/TheCask/misCursosUNQ-back.git) | [![Build Status](https://travis-ci.org/TheCask/misCursosUNQ-back.svg?branch=master)](https://travis-ci.org/TheCask/misCursosUNQ-back) | [![Codacy Badge](https://app.codacy.com/project/badge/Coverage/5f7776931f374604b1b9ea41243ceb0f)](https://www.codacy.com/manual/TheCask/misCursosUNQ-back?utm_source=github.com&utm_medium=referral&utm_content=TheCask/misCursosUNQ-back&utm_campaign=Badge_Coverage) | [![Codacy Badge](https://app.codacy.com/project/badge/Grade/5f7776931f374604b1b9ea41243ceb0f)](https://www.codacy.com/manual/TheCask/misCursosUNQ-back?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=TheCask/misCursosUNQ-back&amp;utm_campaign=Badge_Grade) | [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) |
@@ -14,16 +14,16 @@
 [**Wiki**](https://github.com/TheCask/misCursosUNQ-doc/wiki)
 
 ---
-- **Group**: 14
-- **Members**: Elías Filipponi y Eugenio Cálcena
-- **General Goal**: Se plantea construir un sistema de gestión de cursos y evaluaciones para el ciclo introductorio de ciencia y tecnología (CI-CYT) de la Universidad Nacional de Quilmes (UNQ).
-- **License**: GNU GPL 3
-- **Development process**: Iterativo (MVP mínimo y suma de funcionalidades)
+- **Grupo**: 14
+- **Miembros**: Elías Filipponi y Eugenio Cálcena
+- **Objetivo General**: Se plantea construir un sistema de gestión de cursos y evaluaciones para el ciclo introductorio de ciencia y tecnología (CI-CYT) de la Universidad Nacional de Quilmes (UNQ).
+- **Licencia**: GNU GPL 3
+- **Proceso de Desarrollo**: Iterativo (MVP mínimo y suma de funcionalidades)
 ---
-## Architecture
-- **Type**: Web client - server.
-- **Technologies**: MySQL - Hibernate - Java - Spring - ReactJS
-![Architecture](https://github.com/TheCask/misCursosUNQ-doc/blob/master/Architecture.png)
+## Arquitectura
+- **Tipo**: Web client - server.
+- **Tecnologías**: MySQL - Hibernate - Java - Spring - ReactJS
+![Arquitectura](https://github.com/TheCask/misCursosUNQ-doc/blob/master/Architecture.png)
 Se plantea una arquitectura de tipo cliente servidor. Del lado del Frontend se utilizará REACT dividiendo el proyecto en componentes que manejan lógica y renderizan una parte de pequeña de cada pantalla. Estos se conectaran entre si y a su vez delegaran la comunicación con el backend a servicios API para envío y recepción de información. Del lado del Backend se utilizarán controllers que manejan request y reponses REST, delegando en services especiales la lógica previa y posterior a la comunicación con los repos para la persistencia de la información. Los repos son manejados por Hibernate mediante configuraciones en el dominio mediante anotations, evitando el acceso directo a la base de datos mysql. El dominio escrito en JAVA contempla la lógica de negocio y encapsulamiento apropiado de la información.
 ---
 ## Milestones Github
